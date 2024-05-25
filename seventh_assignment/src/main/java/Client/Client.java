@@ -84,7 +84,7 @@ public class Client {
         // TODO: Implement the main method to start the client
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter Your UserName %$#--->: ");
+        System.out.print("Enter Your UserName %$#--->: ");
         String username = scanner.nextLine();
 
         Socket socket = new Socket("localHost", 3000);
